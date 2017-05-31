@@ -16,4 +16,8 @@ document.getElementById('hover1').addEventListener('mouseover', function(e) {
 	alert("Hey, I told you not to hover over me!");
 });
 
+document.addEventListener('keypress', function(e) {
+	let keypress = document.getElementById('keypress');
+	keypress.innerText = e.key;
+});
 
