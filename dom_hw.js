@@ -21,3 +21,8 @@ document.addEventListener('keypress', function(e) {
 	keypress.innerText = e.key;
 });
 
+document.getElementById('submit').addEventListener('click', function(e){
+	document.getElementById('password').value === "12345678";
+	
+});
+
