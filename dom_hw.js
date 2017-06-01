@@ -8,13 +8,12 @@ document.getElementById('more_stubborn').addEventListener('click', function(e) {
 	document.getElementById('argue').innerHTML = "<h3> NO!! I am Right</h3>";
 });
 
-/*
+
 document.getElementById('hover1').addEventListener('mouseover', function(e) {
 	console.log('this');
 	let heading = this.innerText;
 	alert("Hey, I told you not to hover over me!");
 });
-*/
 
 document.addEventListener('keypress', function(e) {
 	let keypress = document.getElementById('keypress');
